@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "microblog"
+version = "0.1.0"
+description = "Proyecto Microblog para Ingeniería de Software II"
+authors = ["Cruz Ponce <tu_correo@ejemplo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.14.7"
+flask = "^3.0.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
