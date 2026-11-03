@@ -1,0 +1,36 @@
+test_export_failure_in_email_is_logged_and_task_is_closed (test_application_services.ExportPostsServiceTest.test_export_failure_in_email_is_logged_and_task_is_closed) ... ok
+test_export_failure_when_user_not_found (test_application_services.ExportPostsServiceTest.test_export_failure_when_user_not_found) ... ok
+test_export_renders_both_email_templates_for_the_user (test_application_services.ExportPostsServiceTest.test_export_renders_both_email_templates_for_the_user) ... ok
+test_export_reports_progress_in_order (test_application_services.ExportPostsServiceTest.test_export_reports_progress_in_order) ... ok
+test_export_sends_email_with_all_posts_attached (test_application_services.ExportPostsServiceTest.test_export_sends_email_with_all_posts_attached) ... ok
+test_export_sleeps_once_per_post (test_application_services.ExportPostsServiceTest.test_export_sleeps_once_per_post) ... ok
+test_export_user_without_posts_sends_empty_attachment (test_application_services.ExportPostsServiceTest.test_export_user_without_posts_sends_empty_attachment) ... ok
+test_propagates_errors_from_email_service (test_application_services.PasswordResetEmailServiceTest.test_propagates_errors_from_email_service) ... ok
+test_requests_token_once_and_passes_it_to_templates (test_application_services.PasswordResetEmailServiceTest.test_requests_token_once_and_passes_it_to_templates) ... ok
+test_sends_email_to_user_with_admin_as_sender (test_application_services.PasswordResetEmailServiceTest.test_sends_email_to_user_with_admin_as_sender) ... ok
+test_add_to_index_indexes_searchable_fields (test_application_services.SearchServiceTest.test_add_to_index_indexes_searchable_fields) ... ok
+test_all_operations_are_noop_when_elasticsearch_disabled (test_application_services.SearchServiceTest.test_all_operations_are_noop_when_elasticsearch_disabled) ... ok
+test_query_index_returns_ids_and_total (test_application_services.SearchServiceTest.test_query_index_returns_ids_and_total) ... ok
+test_query_index_without_results (test_application_services.SearchServiceTest.test_query_index_without_results) ... ok
+test_remove_from_index_deletes_by_id (test_application_services.SearchServiceTest.test_remove_from_index_deletes_by_id) ... ok
+test_async_starts_thread_and_does_not_send_directly (test_application_services.SendEmailServiceTest.test_async_starts_thread_and_does_not_send_directly) ... ok
+test_attachments_are_added_to_message (test_application_services.SendEmailServiceTest.test_attachments_are_added_to_message) ... ok
+test_no_attachments_by_default (test_application_services.SendEmailServiceTest.test_no_attachments_by_default) ... ok
+test_send_async_email_uses_app_context (test_application_services.SendEmailServiceTest.test_send_async_email_uses_app_context) ... ok
+test_sync_sends_immediately_without_thread (test_application_services.SendEmailServiceTest.test_sync_sends_immediately_without_thread) ... ok
+test_progress_100_persists_complete_flag (test_application_services.SetTaskProgressIntegrationTest.test_progress_100_persists_complete_flag) ... ok
+test_progress_is_persisted_and_notification_created (test_application_services.SetTaskProgressIntegrationTest.test_progress_is_persisted_and_notification_created) ... ok
+test_progress_100_marks_task_complete (test_application_services.SetTaskProgressUnitTest.test_progress_100_marks_task_complete) ... ok
+test_with_job_stores_progress_and_notifies_user (test_application_services.SetTaskProgressUnitTest.test_with_job_stores_progress_and_notifies_user) ... ok
+test_without_job_does_nothing (test_application_services.SetTaskProgressUnitTest.test_without_job_does_nothing) ... ok
+test_calls_api_with_expected_url_headers_and_body (test_application_services.TranslateServiceTest.test_calls_api_with_expected_url_headers_and_body) ... ok
+test_not_configured_when_key_is_empty_does_not_call_api (test_application_services.TranslateServiceTest.test_not_configured_when_key_is_empty_does_not_call_api) ... ok
+test_not_configured_when_key_missing (test_application_services.TranslateServiceTest.test_not_configured_when_key_missing) ... ok
+test_returns_error_message_when_api_fails (test_application_services.TranslateServiceTest.test_returns_error_message_when_api_fails) ... ok
+test_returns_error_when_unauthorized (test_application_services.TranslateServiceTest.test_returns_error_when_unauthorized) ... ok
+test_returns_translated_text_on_success (test_application_services.TranslateServiceTest.test_returns_translated_text_on_success) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.089s
+
+OK

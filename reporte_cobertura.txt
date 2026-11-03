@@ -1,0 +1,9 @@
+Name                Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------
+app/auth/email.py       6      0      0      0   100%
+app/email.py           17      0      6      0   100%
+app/search.py          18      0      8      0   100%
+app/tasks.py           38      0      6      0   100%
+app/translate.py       11      0      4      0   100%
+---------------------------------------------------------------
+TOTAL                  90      0     24      0   100%
